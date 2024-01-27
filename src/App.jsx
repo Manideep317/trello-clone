@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Navbar className="w-[100vw]"/>
-      <Dashboard className="overflow-hidden"/>
+      <Navbar className="w-screen"/>
+      <Dashboard className=""/>
     </>
   )
 }
