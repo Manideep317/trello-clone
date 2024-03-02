@@ -13,7 +13,7 @@ export function Navbar() {
 
     return (
         <>
-            <div className="flex justify-between max-sm:px-6 fixed pt-4 px-4 z-50 top-0 left-0 bg-white pb-2 shadow-lg w-screen overflow-hidden">
+            <div className="flex justify-between max-sm:px-6 fixed pt-4 px-4 z-50 top-0 left-0 bg-white pb-2 shadow-lg w-screen overflow-none">
                 <div className="flex w-[25%] items-center">
                     <img src={boards} className='h-[30px] px-1' alt="boards" />
                     <img src={search} alt="" className='h-[20px]' />

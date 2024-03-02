@@ -9,8 +9,10 @@ function App() {
 
   return (
     <>
+      <div className='w-screen'>
       <Navbar className="w-screen"/>
-      <Dashboard className=""/>
+      <Dashboard/>
+      </div>
     </>
   )
 }

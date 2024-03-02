@@ -14,7 +14,7 @@ export function Design() {
     return (
         <>
               
-            <div className="pt-3 pb-3 pr-3 max-lg:w-[40vw] max-md:w-[60vw] lg:w-[100vw] max-sm:w-[95vw]">
+            <div className="pt-3 pb-3 pr-3 max-lg:min-w-[40vw] max-md:min-w-[60vw] lg:min-w-[30vw] max-sm:min-w-[95vw]">
                 <div className="h-[40px] w-[100%] justify-between rounded-md px-4 bg-[#f4f4f4] flex items-center">
                     <h4 className='text-lg'>Design</h4>
                     <FontAwesomeIcon icon={faEllipsis} size='xl' className='text-gray-400'/>

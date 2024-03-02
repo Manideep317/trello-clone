@@ -7,7 +7,7 @@ import { Test } from './Test'
 export function PublicDashboard() {
     return (
         <>
-            <div className=" flex w-screen flex-row">
+            <div className=" flex overflow-auto flex-row">
             <Design/>
             <Protip/>
             <Trello/>

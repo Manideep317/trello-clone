@@ -13,7 +13,7 @@ export function Trello() {
 
     return (
         <>
-        <div className="pt-3 pb-3 pr-3 lg:w-[100vw] max-lg:w-[40vw] max-md:w-[60vw] max-sm:w-[95vw] ">
+        <div className="pt-3 pb-3 pr-3 lg:min-w-[30vw] max-lg:w-[40vw] max-md:w-[60vw] max-sm:min-w-[95vw] ">
                 <div className="h-[40px] w-[100%] justify-between rounded-md px-4 bg-[#f4f4f4] flex items-center">
                     <h4 className='text-lg'>Trello</h4>
                     <FontAwesomeIcon icon={faEllipsis} size='xl' className='text-gray-400'/>

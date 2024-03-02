@@ -15,7 +15,7 @@ export function Final() {
 
     return (
         <>
-        <div className="pt-3 pb-3 lg:w-[100vw] pr-3 max-lg:w-[40vw] max-md:w-[60vw] max-sm:w-[95vw] ">
+        <div className="pt-3 pb-3 mr-3 lg:min-w-[30vw] pr-3 max-lg:w-[40vw] max-md:w-[60vw] max-sm:min-w-[95vw] ">
                 <div className="h-[40px] w-[100%] justify-between rounded-md px-4 bg-[#f4f4f4] flex items-center">
                     <h4 className='text-lg'>Final</h4>
                     <FontAwesomeIcon icon={faEllipsis} size='xl' className='text-gray-400'/>
